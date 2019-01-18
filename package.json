@@ -1,0 +1,20 @@
+{
+  "name": "gtask-notifier",
+  "version": "1.0.0",
+  "description": "Daily notification about google tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "tasks",
+    "notification",
+    "email"
+  ],
+  "author": "its4nuwan@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^27.0.0"
+  }
+}
