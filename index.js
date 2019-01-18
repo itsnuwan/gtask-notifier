@@ -3,7 +3,7 @@ const readline = require('readline');
 const {google} = require('googleapis');
 
 // Email address to receive list of tasks
-const TO_EMAIL = 'its4nuwan@gmail.com';
+const TO_EMAIL = process.env.EMAIL || process.argv[2];
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/tasks.readonly',
